@@ -1,15 +1,5 @@
-# umi project
+# UmiJs + Dva + Less
 
-## Getting Started
+`npm install`
 
-Install dependencies,
-
-```bash
-$ yarn
-```
-
-Start the dev server,
-
-```bash
-$ yarn start
-```
+`npm run start`

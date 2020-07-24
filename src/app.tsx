@@ -3,9 +3,8 @@
  * 覆写 render
  * 用于渲染之前做权限校验
  */
-import { history } from 'umi';
 import React from 'react';
-import { RequestConfig, Redirect } from 'umi';
+import { RequestConfig } from 'umi';
 
 export function render(oldRender: () => void) {
     console.log(111) // 类似中间件请求加载所有前执行
@@ -19,7 +18,9 @@ export function render(oldRender: () => void) {
     // });
 }
 
-
+/**
+ * 请求错误处理
+ */
 export const request: RequestConfig = {
     timeout: 1000,
     errorConfig: {},

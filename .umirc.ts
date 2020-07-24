@@ -6,6 +6,7 @@ export default defineConfig({
     immer: true,
     hmr: false,
   },
+  hash: true,
   request: {
     dataField: 'data'
   },
